@@ -1,0 +1,96 @@
+/** ------------------------------------------------------------------
+							Wrapper Screen
+------------------------------------------------------------------ **/
+@media only screen and (max-width: 1600px) {
+.home_hero_area {
+	padding-top: 430px;
+}
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+}
+
+/** ------------------------------------------------------------------
+							Mobile Screen
+------------------------------------------------------------------ **/
+@media only screen and (max-width: 768px ) {
+.height-space {
+	height: 70px !important;
+}
+.section_title h2 {
+	font-size: 25px;
+}
+.section_title p {
+	font-size: 15px;
+	margin-top: 10px;
+}
+.single_promo_number span {
+	font-size: 16px;
+}
+.single_promo_number {
+	width: 50px;
+	height: 50px;
+}
+.single_promo {
+	padding-left: 68px;
+}
+.single_faq_title h2 {
+	font-size: 16px;
+}
+.scrolltotop {
+	display: none !important;
+}
+.home_footer_details {
+	margin-top: 40px;
+}
+.header_logo img {
+	height: 68px;
+}
+.h_active .header_social {
+	margin-top: 15px;
+}
+.h_active .header_menu {
+	margin-top: 23.5px;
+}
+.home_hero_details h2 {
+	font-size: 27px;
+}
+.home_hero_area {
+	padding-top: 215px;
+	padding-bottom: 100px;
+}
+.single_promo_number::before {
+	top: 6px;
+	left: 5px;
+	width: 50px;
+	height: 50px;
+}
+.single_network img {
+	max-width: 75px;
+}
+.single_network span {
+	font-size: 12px;
+}
+.single_network_img {
+	margin-bottom: 21px;
+}
+.single_network {
+	border-radius: 30px;
+	padding: 33px 5px 30px 5px;
+}
+.home_network_area .section_title {
+	max-width: 451px;
+	margin-bottom: 35px;
+}
+.home_faq_area .section_title span {
+	margin-top: 8px;
+}
+.home_footer_area {
+	background: #111;
+}
+.home_network_area {
+	padding: 70px 0;
+}
+}
